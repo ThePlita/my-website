@@ -183,10 +183,54 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1441px) {
+@media only screen and (min-width: 950px) and (max-width: 1200px) {
+  .container {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    font-size: 0.4em;
+    line-height: 1.2;
+  }
+
+  svg {
+    height: 471.46px;
+    width: 477.13px;
+    margin-left: 15em;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    font-size: 0.4em;
+    line-height: 1.2;
+    margin-bottom: 6em;
+  }
+
+  svg {
+    margin-left: 15em;
+    width: 761.6px;
+    height: 769.6px;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 2600px) {
   .container {
     height: 82vh;
     margin-bottom: 2em;
+  }
+}
+@media only screen and (min-width: 2601px) {
+  .container {
+    height: 90vh;
+    margin-bottom: 2em;
+  }
+  svg {
+    height: 1428px;
+    width: 1443px;
+    margin-left: 35em;
   }
 }
 
