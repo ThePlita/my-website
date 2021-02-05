@@ -42,7 +42,7 @@ a:hover {
 
 .email_button a {
   background: black;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.5em;
   font-weight: 300;
   z-index: 2;
@@ -63,7 +63,7 @@ a {
 }
 
 .typewrite {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5em;
   font-weight: 300;
 }
@@ -180,6 +180,13 @@ svg {
     align-items: center;
     font-size: 0.4em;
     line-height: 1.2;
+  }
+}
+
+@media only screen and (max-width: 1441px) {
+  .container {
+    height: 82vh;
+    margin-bottom: 2em;
   }
 }
 
