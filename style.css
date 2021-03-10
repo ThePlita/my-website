@@ -474,15 +474,15 @@ svg {
 
   /* Card  */
 
-  /* .project-container {
+  .project-container {
     width: 500px;
     height: 600px;
     font-size: 1rem;
   }
 
   .project-container .project-image {
-    height: 190px;
-    width: 300px;
+    height: 246.6px;
+    width: 400px;
   }
 
   .project-name {
@@ -490,8 +490,9 @@ svg {
   }
 
   .project-description {
-    font-size: 1.25rem;
-  } */
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+  }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1500px) {
@@ -516,26 +517,26 @@ svg {
     height: 769.6px;
   }
 
-  #second-section {
-    grid-template-columns: 1fr;
+  /* #second-section {
+    grid-template-columns: 1fr ;
     justify-items: center;
-  }
+  } */
 
-  #second-project {
+  /* #second-project {
     display: none;
-  }
+  } */
 
   /* Card  */
 
-  /* .project-container {
+  .project-container {
     width: 500px;
     height: 600px;
     font-size: 1rem;
   }
 
   .project-container .project-image {
-    height: 190px;
-    width: 300px;
+    height: 246.6px;
+    width: 400px;
   }
 
   .project-name {
@@ -543,8 +544,9 @@ svg {
   }
 
   .project-description {
-    font-size: 1.25rem;
-  } */
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+  }
 }
 
 @media only screen and (min-width: 1500px) and (max-width: 2600px) {
@@ -554,8 +556,6 @@ svg {
 
   svg {
     margin-left: 10rem;
-    width: 1142px;
-    height: 1154px;
   }
 }
 @media only screen and (min-width: 2601px) {
