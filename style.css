@@ -218,6 +218,10 @@ svg {
   font-weight: 300;
 }
 
+.my-projects-text {
+  font-family: 'Homemade Apple', cursive;
+}
+
 /* Arrow-bounce effect */
 
 .bounce {
@@ -321,9 +325,8 @@ svg {
     animation-timing-function: ease-out;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .text {
-    margin-left: 3em;
     margin-top: 5em;
   }
 
@@ -338,6 +341,10 @@ svg {
     align-items: center;
     font-size: 0.3em;
     line-height: 1.2;
+  }
+
+  .typewrite {
+    font-size: 4em;
   }
 
   #second-section {
