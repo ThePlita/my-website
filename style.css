@@ -171,9 +171,9 @@ svg {
   max-width: 1000px;
   width: 700px;
   height: 80vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 10px;
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.25);
   transition: all 0.5s ease-in-out;
   color: black;
   display: flex;
@@ -528,15 +528,6 @@ svg {
     width: 761.6px;
     height: 769.6px;
   }
-
-  /* #second-section {
-    grid-template-columns: 1fr ;
-    justify-items: center;
-  } */
-
-  /* #second-project {
-    display: none;
-  } */
 
   /* Card  */
 
